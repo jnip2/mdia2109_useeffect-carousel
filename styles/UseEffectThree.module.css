@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    background-color: var(--off-white);
+    padding: 2.5rem;
+    border-radius: 30px;
+}
+
+.value {
+    font-size: 4rem;
+    color: var(--blue);
+}
+
+.header {
+    font-size: 4.5rem;
+    color: var(--dark);
+}
+
+.button {
+    padding: 1rem;
+    border: none;
+    border-radius: 30px;
+
+    color: var(--off-white);
+    background-color: var(--pink);
+
+    font-family: 'Fredoka One', cursive;
+}
+
+.button:hover {
+    color: var(--dark);
+    background-color: var(--pink);
+}
